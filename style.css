@@ -1,0 +1,317 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #545E6C;
+    background: #f5f5f5;
+    font-size: 14px;
+    padding: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+a {
+    color: #2d7788;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1a454f;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.wrapper {
+    max-width: 960px;
+    position: relative;
+    margin: 0 auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main_wrapper {
+    background: #fff;
+    padding: 60px;
+    margin-right: 0;
+}
+
+.sidebar_wrapper {
+    display: block;
+    background: #42A8C0;
+    margin-left: 0;
+    width: 240px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+}
+
+.section {
+    margin-bottom: 60px;
+}
+
+.upper-row {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
+}
+
+.job-title {
+    color: #3F4650;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.job-time {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #97AAC3;
+}
+
+.job-company {
+    margin-bottom: 10px;
+    color: #97AAC3;
+}
+
+
+.section_title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2d7788;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.section_title .fas {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 50%;
+    background-clip: padding-box;
+    background: #2d7788;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+}
+
+.project-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.project-title a {
+    color: #2d7788;
+    transition: all 0.4s ease-in-out;
+}
+
+.project-title a:hover {
+    color: #3F4650;
+}
+
+
+.skills .item {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.skill-title {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.skill-level-bar {
+    height: 12px;
+    background: #f5f5f5;
+}
+
+.skill-level-bar-inner {
+    height: 12px;
+    background: #7bc2d3;
+}
+
+
+
+
+
+
+.avatar {
+    display: block;
+    padding-bottom: 0;
+    padding: 30px;
+    text-align: center;
+    background: #35869A;
+}
+
+.avatar img {
+    padding-bottom: 19px;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.job {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+.other {
+    padding-top: 0;
+    background: #42A8C0;
+}
+
+.other a {
+    color: #fff;
+}
+
+.contacts {
+    padding-top: 33px;
+    padding-left: 29px;
+}
+
+.contacts li {
+    padding-bottom: 10px;
+}
+
+.contacts li i {
+    padding-right: 5px;
+}
+
+.education {
+    padding-top: 33px;
+    padding-left: 29px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.degree {
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.almamater {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.time {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.block_title {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.languages {
+    padding-top: 33px;
+    padding-left: 29px;
+}
+
+.lang-desc {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.interests {
+    padding-top: 33px;
+    padding-left: 29px;
+}
+
+.interests-languages-list {
+    margin-bottom: 0;
+}
+
+.interests-languages-list li {
+    margin-bottom: 10px;
+}
+
+.container-block {
+    padding: 30px;
+}
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    .sidebar_wrapper {
+      position: static;
+      width: inherit;
+    }
+    .main_wrapper {
+      padding: 30px;
+    }
+    .main_wrapper .time {
+      position: static;
+      display: block;
+      margin-top: 5px;
+    }
+    .upper-row {
+      margin-bottom: 0;
+    }
+
+
+  }
+  /* Small devices (tablets, 768px and up) */
+  /* Medium devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .skill-title {
+      display: inline-block;
+      float: left;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .skill-level-bar {
+      display: inline-block;
+      width: 70%;
+      float: left;
+      position: relative;
+      top: 1px;
+    }
+  }
